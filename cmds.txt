@@ -1,0 +1,11 @@
+python -m test_js2sf.json_load --input_filename test1.json --modelname test1
+python -m test_js2sf.json_load --input_filename test2.json --modelname test2
+
+python -m test_js2sf.json_dump --modelname test1 --uniquename test1
+python -m test_js2sf.json_dump --modelname test1 --uniquename test12
+
+python -m test_js2sf.json_dump --modelname test2 --uniquename test2
+python -m test_js2sf.json_dump --modelname test2 --uniquename test22
+
+python -m test_js2sf.name_list --modelname test1
+python -m test_js2sf.name_list --modelname test2
